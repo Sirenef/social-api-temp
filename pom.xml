@@ -314,10 +314,10 @@
 					<diffChangeLogFile>${basedir}/src/main/resources/liquibase/${maven.build.timestamp}_changelog.xml</diffChangeLogFile>
 					<outputChangeLogFile>${basedir}/src/main/resources/liquibase/db.changelog-1.0.0.xml</outputChangeLogFile>
 					<driver>com.mysql.cj.jdbc.Driver</driver>
-					<url>jdbc:mysql://localhost:3306/social_networking_api</url>
+					<url>jdbc:mysql://root:8GmJZ8WYISfxdfFqCbKO@containers-us-west-31.railway.app:6745/railway</url>
 					<defaultSchemaName/>
 					<username>root</username>
-					<password>2002</password>
+					<password>8GmJZ8WYISfxdfFqCbKO</password>
 					<referenceUrl>hibernate:spring:com.social.networking.api.model,com.social.networking.api.repository?dialect=org.hibernate.dialect.MySQL5InnoDBDialect&amp;hibernate.physical_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy&amp;hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy</referenceUrl>
 					<verbose>true</verbose>
 					<logging>debug</logging>
